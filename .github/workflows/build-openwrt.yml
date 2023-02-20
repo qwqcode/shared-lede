@@ -33,7 +33,7 @@ jobs:
     if: inputs.build == 'true'
     runs-on: ubuntu-latest
     env:
-      TEMP_PREFIX: temp
+      TEMP_PREFIX: 1
       DEPLOYDIR: preset-openwrt
     steps:
 
